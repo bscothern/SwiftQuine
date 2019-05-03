@@ -1,6 +1,6 @@
 # Quine
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-lightgrey.svg)]
+![GitHub license](https://img.shields.io/badge/license-MIT-lightgrey.svg)
 
 A program that takes no input and produces its own source code as its output.
 
