@@ -1,13 +1,13 @@
 import Foundation
-let q: String = "\""
+let q = "\""
 let c = ","
 let s = "\\"
-let p: [String] = [
+let p = [
     "import Foundation;let q: String = ", /* quote, slash, quote x 2*/
     ";let c: String = ", /* quote */
     ",", /* quote */
     ";let s = ", /* quote, slash x2, quote */
-    ";let p: [String] = [",
+    ";let p = [",
     "]",
     "var result = p[0]  + q + s + q + q + p[1] + q + p[2] + q + p[3] + q + s + s + q + p[4]",
     "for l in p { result += q + l + q + c }",
