@@ -2,7 +2,7 @@
 
 ![GitHub license](https://img.shields.io/badge/license-MIT-lightgrey.svg)
 
-A program that takes no input and produces its own source code as its output.
+A quine is a program that takes no input and produces its own source code as its output.
 
 ## Usage
 To get the quine program run the command: `swift main.swift`
