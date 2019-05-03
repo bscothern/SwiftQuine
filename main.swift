@@ -1,9 +1,8 @@
-import Foundation
 let q = "\""
 let c = ","
 let s = "\\"
 let p = [
-    "import Foundation;let q: String = ", /* quote, slash, quote x 2*/
+    "let q: String = ", /* quote, slash, quote x 2*/
     ";let c: String = ", /* quote */
     ",", /* quote */
     ";let s = ", /* quote, slash x2, quote */
